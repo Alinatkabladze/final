@@ -11,26 +11,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="container">
+	
 		<header>
-		
-<!-- 			<ul class="nav nav-pills">
-  <li class="nav-item">
-			  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
-  </li>
-   </li>
-</ul> -->
-
-
 			 <img class="logo" src="img/header-logo.png" alt="logo">
+
+ 
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">RUS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">ENG</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link GEO" href="#">GEO</a>
+  </li>
+ 
+
+ 
+</ul>
+
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -40,13 +41,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/photo13.jpg" alt="First slide">
+      <img  src="img/photo13.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/photo3.jpg" alt="Second slide">
+      <img src="img/photo3.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/photo2.jpg" alt="Third slide">
+      <img  src="img/photo2.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -57,8 +58,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-<div class="cover-text">
+  <div class="cover-text">
  
     <h1>Colorfull World</h1>
     <a href="#" class="btn btn-primary"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod
@@ -71,15 +71,17 @@
 
  <p>322-566-432-1</p>
 </div>
+</div>
 </header>
 
-</div>
+
+
 
 <div class="card-deck">
-  <div class="card">
+  <div class="card first-card">
    
     <div class="card-body">
-      <h5 class="card-title">Current Project</h5>
+      <h5 class="card-title" style="font-size:35px;font-weight:bolder">Current Project</h5>
       <p class="current-card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -90,7 +92,7 @@
 <div class="card second" >
   <img class="card-img-top" src="img/photo1.jpg" alt="Card image cap">
   <div class="second-card-body">
-    <h5 class="card-title">Lorem Ipsum Dolor</h5>
+    <h5 class="card-title" style="font-size:25px;font-weight:bolder">Lorem Ipsum Dolor</h5>
     <a href="#" class="btn btn-primary"> <i class="fa fa-key" aria-hidden="true"></i>Choose apartment</a>
     <p class="card-text">Some quick example text to build on the card title</p>
   </div>
@@ -108,12 +110,13 @@
     <div class="all-projects">
    
  
-      <h4 class=" card-body card-title">View All <br> Projects</h4>
+      <h4 class=" card-body card-title">View All<br> Projects</h4>
      
   <i class="fa fa-hand-o-right" style="font-size:35px;color:#6666ff"></i>
   
   </div>
 </div>
+
 
 <div class="gallery">
 
@@ -150,51 +153,75 @@
 </div>
 	</div>
 
-	<div class="news">
+
+
+
+<div class="news">
 
 <h2>News</h2>
 
-
-<img class="news-cover" src="img/photo10.jpg" alt="Second slide">
-<div class="card news-card" style="width: 16rem;">
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">More News</a>
-  </div>
-</div>
-
-
-<img class="news-cover" src="img/photo11.jpg" alt="Second slide">
-<div class="card news-card" style="width: 16rem;">
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">More News</a>
-  </div>
-</div>
+  <article>
+        <img src="img/photo10.jpg">
+        <div class="description">
+          <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </article>
 
 
-<img class="hidden" src="img/photo12.jpg" alt="Second slide">
-<div class="card news-card">
-  <div class=" hidden-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">More News</a>
-  </div>
+       <article>
+        <img src="img/photo11.jpg">
+        <div class="description">
+          <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </article>
+
+
+        <article class="last">
+        <img src="img/photo12.jpg">
+        <div class="description">
+          <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+          <i class="fa fa-hand-o-right last-hand" style="font-size:35px;color:#6666ff"></i>
   
+      </article>
+
+     <div class="clear">
+     </div>
 </div>
-<!--  <img  class="hidden-arrow" src="img/arrow.png" alt="Second slide"> -->
-</div>
+
+
+
+
+
 <div class="location">
+
 	<h2>Location</h2>
 
   <div class="section"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1489.348815732355!2d44.778635127484314!3d41.705462727518345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cce3132ef97%3A0x75e95e38e266a4ef!2s30+Vasil+Petriashvili+Street%2C+Tbilisi!5e0!3m2!1sen!2sge!4v1518107684817" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <div class="current-project">
 <div class="contact-card">
+
   <img class="news-cover" src="img/photo13.jpg" alt="Second slide">
-    <h5 class="card-title">Current Colorfull Project</h5><br>
+     <div class="news-content">
+    <h5 class="card-title">Current Colorfull Project</h5>
+    <i class="fa fa-phone" style="font-size:20px;color:#fff"></i>
+
+     <p>322-566-432-1</p>
+</div>
+
 </div>
 
 </div>
@@ -206,6 +233,8 @@
  <h6>322-566-432-1</h6>
 </div>
 </div>
+
+
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img class="footer-logo" src="img/logo.png" alt="phone"> <br>
@@ -234,7 +263,9 @@
       </li>
     </ul>
     <span class="navbar-text">
-     Created By @Alina Tkabladze
+      <i class="fa fa-facebook-square" style="font-size:24px"></i>
+      <i class="fa fa-youtube" style="font-size:24px"></i>
+     <h6>Created By @Alina Tkabladze</h6>
     </span>
   </div>
 </nav>
